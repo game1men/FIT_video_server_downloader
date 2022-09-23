@@ -5,3 +5,8 @@
  - stahne kompletni predmet
  - je potreba stahovat do slozky ve ktere nejsou zadne soubory *.mp4* jelikoz je program pouziva k zjisteni progresu
  - spusteni ./download-playlist "url predmetu na video serveru" "cesta kam ulozit soubory"
+ 
+ - pri přerušení stahování si script zvládne při opětovvném spuštění zjistit odkud má pokračovat podle počtu mp4 souborů v cílové složce
+
+### known issues
+ - script z nějakého důvodu přeskočí 1. přednášku. 
